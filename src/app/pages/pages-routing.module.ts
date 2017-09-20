@@ -25,6 +25,30 @@ const routes: Routes = [
        path: 'operacion',
        loadChildren: './operacion/operacion.module#OperacionModule',
      },
+     {
+       path: 'alarmas',
+       loadChildren: './alarmas/alarmas.module#AlarmasModule',
+     },
+     {
+       path: 'auto-manual',
+       loadChildren: './auto-manual/auto-manual.module#AutoManualModule',
+     },
+     {
+       path: 'tendencia',
+       loadChildren: './tendencia/tendencia.module#TendenciaModule',
+     },
+     {
+       path: 'lo-pt',
+       loadChildren: './lo-pt/lo-pt.module#LoPtModule',
+     },
+     {
+       path: 'hi-pt',
+       loadChildren: './hi-pt/hi-pt.module#HiPtModule',
+     },
+     {
+       path: 'produccion',
+       loadChildren: './produccion/produccion.module#ProduccionModule',
+     },
    ]
  },
 ];

@@ -35,6 +35,7 @@ sidebar .nav {
     color: #222 !important;
     cursor: default;
     background-color: #ddd;
+    transition: all .3s ease 0s;
 }
 .nav-pills .nav-link {
     border-radius: 0;
